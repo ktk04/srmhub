@@ -103,58 +103,31 @@
   padding-left: 20px;
   padding-right: 38px;
   background-color:#404040;
-  color: white;
+  color: #FFFFFF66;
   border-radius: 1.5vh;
   border-color: black;
+  margin-top: 1vh;
 }
 
-.dropdown{
-  width: 150px;
-  border-right: 2px solid #dde2f1;
-  color: #9fa3b1;
-  position: relative;
-  cursor: pointer;
+#dist
+{
+    background: #404040;
+    font-size: 25px;
+    color: #FFFFFF66;
+    border-radius: 1.5vh;
+    width: 25%;
+    border-color: black;
+    padding:0.5vh;
+    margin-top:1vh;
 }
 
-.dropdown .default_option{
-  text-transform: uppercase;
-  padding: 13px 15px;
-  font-size: 14px;
-}
-
-.dropdown ul{
-  position: absolute;
-  top: 70px;
-  left: -10px;
-  background: #fff;
-  width: 150px;
-  border-radius: 5px;
-  padding: 20px;
-  display: none;
-  box-shadow: 8px 8px 6px -10px #b3c6ff;
-}
-
-.dropdown ul.active{
-  display: block;
-}
-
-.dropdown ul li{
-  padding-bottom: 20px;
-}
-
-.dropdown ul li:last-child{
-  padding-bottom: 0;
-}
-
-.dropdown ul li:hover{
-  color: #6f768d;
-}
-
-.dropdown:before{
-  content: "";
-  position: absolute;
-  top: 18px;
-  right: 20px;
-  border: 8px solid;
-  border-color: #5078ef transparent transparent transparent;
+.btn-outline-Restaurant
+{
+  background-color:#6C63FF;
+  color:black;
+  border-color: black;
+  margin-top:1vh;
+  font-size: 18px;
+  width:25%;
+  border-radius:1.5vh;
 }
