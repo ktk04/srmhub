@@ -36,3 +36,125 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-dark
+{
+  background:#131312;
+}
+
+.top-buffer { 
+  margin-top:100px; }
+
+.Greetings
+{
+  background:#131312;
+  margin-top:100px;
+}
+.padding-0{
+  padding-right:0;
+  padding-left:0;
+}
+
+#Bldg
+{
+  height:auto;
+}
+
+.welcome
+{
+  color: white;
+}
+
+#TypeWriter
+{
+  color:#6C63FF;
+  font-size: 50px;
+}
+
+.casual
+{
+  color:white;
+}
+
+
+.btn-outline-light
+{
+  background-color:#7C7C7C;
+  color:black;
+  border-color: black;
+}
+.btn-outline-light:hover
+{
+   background-color:#6C63FF;
+   color:black;
+   border-color: #6C63FF;
+}
+
+
+.heading-2
+{
+  font-size: 50px;
+  margin-left:50px;
+}
+
+.search_field .input
+{
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 38px;
+  background-color:#404040;
+  color: white;
+  border-radius: 1.5vh;
+  border-color: black;
+}
+
+.dropdown{
+  width: 150px;
+  border-right: 2px solid #dde2f1;
+  color: #9fa3b1;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown .default_option{
+  text-transform: uppercase;
+  padding: 13px 15px;
+  font-size: 14px;
+}
+
+.dropdown ul{
+  position: absolute;
+  top: 70px;
+  left: -10px;
+  background: #fff;
+  width: 150px;
+  border-radius: 5px;
+  padding: 20px;
+  display: none;
+  box-shadow: 8px 8px 6px -10px #b3c6ff;
+}
+
+.dropdown ul.active{
+  display: block;
+}
+
+.dropdown ul li{
+  padding-bottom: 20px;
+}
+
+.dropdown ul li:last-child{
+  padding-bottom: 0;
+}
+
+.dropdown ul li:hover{
+  color: #6f768d;
+}
+
+.dropdown:before{
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  border: 8px solid;
+  border-color: #5078ef transparent transparent transparent;
+}
