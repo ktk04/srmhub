@@ -138,3 +138,19 @@
   color:white;
   border-radius: 1.5vh;
 }
+
+.resultN,.resultR
+{
+  display:none;
+}
+
+.btn-outline-Notes
+{
+  background-color:#6C63FF;
+  color:black;
+  border-color: black;
+  margin-top:1vh;
+  font-size: 18px;
+  width:25%;
+  border-radius:1.5vh;
+}

@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
+import $ from 'jquery';
 
+export default class Restaurant extends Component{
+  jQuerycode=() => {
+$(".btn-outline-Restaurant").on("click",function(){
+  $(".resultR").css("display","block");
+  $(".BigR").css("display","none");
+});
+  }
 
-export default function Restaurant(){
-    return(
+  componentDidMount(){
+    this.jQuerycode()
+  }
+    render(){
+       return(
         <div className="container-fluid">
             <div className="row pt-2">
             <div className="col-12">
@@ -16,17 +27,24 @@ export default function Restaurant(){
                <i className="fas fa-search"></i>
                </div>
              </div>
-             <div className="col-12 col-md-2 text-center">
+             <div className="col-12 col-md-3 text-center">
              <select name="Distance" id="dist">
                 <option value="1KM">1 km</option>
                 <option value="5KM">5 km</option>
                 <option value="10KM">10 km</option>
              </select>
             </div>
-            <div className="col-12 col-md-5 text-lg-left text-center">
-            <button className="btn btn-outline-Restaurant btn-lg mb-2"> Search </button>
+            <div className="col-12 col-md-4 text-lg-left text-center">
+            <button className="btn btn-outline-Restaurant btn-lg mb-2" > Search </button>
             </div>
         </div>
+        <div className="BigR row pt-2">
+          <div className="col-12 d-flex justify-content-center">
+          <img id="Search" className="img-fluid"
+                src={require("./Searching.jpg")}/>
+          </div>
+        </div>
+        <section className="resultR">
         <div className="row">
           <div className="col-12 col-md-6 pt-5 d-flex justify-content-center">
           <div className="card" style={{width: 350}}>
@@ -71,6 +89,8 @@ export default function Restaurant(){
           </div>
           </div>
         </div>
+        </section>
       </div>
     )
+}
 }
