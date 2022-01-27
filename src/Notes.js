@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 
-export default class Restaurant extends Component{
+export default class Notes extends Component{
   jQuerycode=() => {
 $(".btn-outline-Notes").on("click",function(){
   $(".resultN").css("display","block");
@@ -14,10 +14,10 @@ $(".btn-outline-Notes").on("click",function(){
   }
     render(){
        return(
-        <div className="container-fluid mt-5">
+        <div className="container-fluid">
             <div className="row pt-2">
             <div className="col-12">
-                <h2 className="heading-2 text-light pt-2"> Notes</h2>
+                <h2 className="heading-2 text-light text-lg-left text-center pt-2"> Notes</h2>
             </div>
             </div>
             <div className="row pt-4">
@@ -47,7 +47,7 @@ $(".btn-outline-Notes").on("click",function(){
         <div className="BigN row pt-2">
           <div className="col-12 d-flex justify-content-center">
           <img id="Search" className="img-fluid"
-                src={require("./Searching.jpg")}/>
+                src={require("./pics/Searching.jpg")}/>
           </div>
         </div>
         <section class="resultN">

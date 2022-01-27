@@ -17,12 +17,13 @@ $(".btn-outline-Restaurant").on("click",function(){
         <div className="container-fluid">
             <div className="row pt-2">
             <div className="col-12">
-                <h2 className="heading-2 text-light pt-2"> Restaurants</h2>
+                <h2 className="heading-2 text-light text-lg-left text-center pt-2"> Restaurants</h2>
             </div>
             </div>
             <div className="row pt-4">
              <div className="col-12 col-md-5 text-lg-right text-center">
                <div className="search_field">
+               <img id="glass" className="fas fa-search"/>
                <input type="text" className="input" placeholder="Search Restaurants" />
                <i className="fas fa-search"></i>
                </div>
@@ -41,14 +42,14 @@ $(".btn-outline-Restaurant").on("click",function(){
         <div className="BigR row pt-2">
           <div className="col-12 d-flex justify-content-center">
           <img id="Search" className="img-fluid"
-                src={require("./Searching.jpg")}/>
+                src={require("./pics/Searching.jpg")}/>
           </div>
         </div>
         <section className="resultR">
         <div className="row">
           <div className="col-12 col-md-6 pt-5 d-flex justify-content-center">
           <div className="card" style={{width: 350}}>
-            <img className="card-img-top" src={require("./Cafe.jpg")}  alt="Card image cap"/>
+            <img className="card-img-top" src={require("./pics/Cafe.jpg")}  alt="Card image cap"/>
              <div className="card-body">
              <h5 className="card-title">Kent's Cafe</h5>
              <p className="card-text">It is a long established fact that a reader will be distracted by the readable content of a page...</p>
@@ -58,7 +59,7 @@ $(".btn-outline-Restaurant").on("click",function(){
           </div>
           <div className="col-12 col-md-6 pt-5 d-flex justify-content-center">
           <div className="card" style={{width: 350}}>
-            <img className="card-img-top" src={require("./Cafe.jpg")}  alt="Card image cap"/>
+            <img className="card-img-top" src={require("./pics/Cafe.jpg")}  alt="Card image cap"/>
              <div className="card-body">
              <h5 className="card-title">Kent's Cafe</h5>
              <p className="card-text">It is a long established fact that a reader will be distracted by the readable content of a page...</p>
@@ -70,7 +71,7 @@ $(".btn-outline-Restaurant").on("click",function(){
           <div className="row">
           <div className="col-12 col-md-6 pt-5  d-flex justify-content-center">
           <div className="card" style={{width: 350}}>
-            <img className="card-img-top" src={require("./Cafe.jpg")}  alt="Card image cap"/>
+            <img className="card-img-top" src={require("./pics/Cafe.jpg")}  alt="Card image cap"/>
              <div className="card-body">
              <h5 className="card-title">Kent's Cafe</h5>
              <p className="card-text">It is a long established fact that a reader will be distracted by the readable content of a page...</p>
@@ -80,7 +81,7 @@ $(".btn-outline-Restaurant").on("click",function(){
           </div>
               <div className="col-12 col-md-6 pt-5  d-flex justify-content-center">
           <div className="card" style={{width: 350}}>
-            <img className="card-img-top" src={require("./Cafe.jpg")} alt="Card image cap"/>
+            <img className="card-img-top" src={require("./pics/Cafe.jpg")} alt="Card image cap"/>
              <div className="card-body">
              <h5 className="card-title">Kent's Cafe</h5>
              <p className="card-text">It is a long established fact that a reader will be distracted by the readable content of a page...</p>
