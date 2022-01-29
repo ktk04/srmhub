@@ -23,7 +23,7 @@ $(".btn-outline-Notes").on("click",function(){
             <div className="row pt-4">
              <div className="col-12 col-md-5 text-lg-right text-center">
                <div className="search_field">
-               <input type="text" className="input" placeholder="Search Restaurants" />
+               <input type="text" className="input" placeholder="Search Notes" />
                </div>
              </div>
              <div className="col-12 col-md-3 text-center">
