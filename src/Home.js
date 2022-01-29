@@ -4,7 +4,7 @@ export default function Home(){
     return(
         <div className="Greetings container-fluid h-100 ">
         <div className="row top-buffer text-center align-items-center h-100" >
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-lg-6">
                 <img id="Bldg" className="img-fluid"
                 src={require("./pics/Bldg.jpg")}/>
             </div>
