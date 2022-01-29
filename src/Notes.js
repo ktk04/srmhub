@@ -24,7 +24,6 @@ $(".btn-outline-Notes").on("click",function(){
              <div className="col-12 col-md-5 text-lg-right text-center">
                <div className="search_field">
                <input type="text" className="input" placeholder="Search Restaurants" />
-               <i className="fas fa-search"></i>
                </div>
              </div>
              <div className="col-12 col-md-3 text-center">

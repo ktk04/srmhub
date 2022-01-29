@@ -9,7 +9,7 @@ export default function Home(){
                 src={require("./pics/Bldg.jpg")}/>
             </div>
             <div className="col-12 col-md-6">
-                <div className="font-weight-light welcome text-left" style={{ fontFamily: 'Montserrat',fontSize: 70,fontWeight: 'bold' }}>
+                <div className="font-weight-light welcome text-left" style={{ fontFamily: 'Montserrat',fontSize: 70, fontWeight: 'bold' }}>
                 Welcome To
                 </div>
                 <div className="text-left">

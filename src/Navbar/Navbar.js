@@ -20,7 +20,7 @@ const Nav = () => {
                 <a href="/restaurants" className="nav-link"> Restaurants </a>
             </li>
             <li className="nav-item px-3">
-                <a href="#Contact" className="nav-link"> Contact Us </a>
+                <a href="/contact" className="nav-link"> Contact Us </a>
             </li>
         </ul>
         </div>

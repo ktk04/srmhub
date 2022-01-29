@@ -23,9 +23,8 @@ $(".btn-outline-Restaurant").on("click",function(){
             <div className="row pt-4">
              <div className="col-12 col-md-5 text-lg-right text-center">
                <div className="search_field">
-               <img id="glass" className="fas fa-search"/>
                <input type="text" className="input" placeholder="Search Restaurants" />
-               <i className="fas fa-search"></i>
+
                </div>
              </div>
              <div className="col-12 col-md-3 text-center">

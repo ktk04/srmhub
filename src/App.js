@@ -5,6 +5,7 @@ import Nav from './Navbar/Navbar.js';
 import Home from './Home.js';
 import Restaurant from './Restaurant.js';
 import Notes from './Notes.js';
+import Contact from './Contact.js';
 import { BrowserRouter as Router,Switch,Route,Routes} from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/restaurants" element={<Restaurant/>}/>
       <Route path="/notes" element={<Notes/>}/>
+      <Route path="/contact" element={<Contact/>}/>
       </Routes>
     </Router>
     </div>
