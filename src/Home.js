@@ -19,10 +19,10 @@ export default function Home(){
                     Find the best notes and restaurant reviews
                 </div>
                 <div className="Btns row mt-4">
-                <div className="col-12 col-lg-3 text-md-left text-center">
+                <div className="col-12 col-lg-3 text-lg-left text-center">
                 <a href="/notes"><button className="btn btn-outline-light-N btn-lg mt-3 mb-2"> Notes </button> </a> 
                 </div>  
-                <div className="col-12 col-lg-9 text-md-left text-center">
+                <div className="col-12 col-lg-9 text-lg-left text-center">
                 <a href="/restaurants"><button className="btn btn-outline-light btn-lg mt-3 mb-2"> Restaurants </button> </a>
                 </div> 
                 </div>
