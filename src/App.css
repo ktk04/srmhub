@@ -3,7 +3,15 @@
 {
   background:#131312;
 }
+.nav-link 
+{
+  color:white !important;
+}
 
+.nav-link:hover
+{
+  font-weight: bold !important;
+}
 .top-buffer { 
   margin-top:50px; }
 

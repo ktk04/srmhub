@@ -10,16 +10,16 @@ const Nav = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarMenu">
         <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
+            <li className="nav-item px-3">
                 <a href="/" className="nav-link"> Home</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item px-3">
                 <a href="/notes" className="nav-link"> Notes </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item px-3">
                 <a href="/restaurants" className="nav-link"> Restaurants </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item px-3">
                 <a href="#Contact" className="nav-link"> Contact Us </a>
             </li>
         </ul>
