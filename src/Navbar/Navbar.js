@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
     return(
         <nav className="navbar navbar-expand-md navbar-dark" >
-        <a href="/" className="navbar-brand"> <img src={require("./Logo.jpg")} height="70px" width="200px"/> </a>
+        <a href="/" className="navbar-brand logo"> Srm Hub </a>
         <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span className="navbar-toggler-icon"></span>
         </button>

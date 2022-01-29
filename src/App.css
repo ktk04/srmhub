@@ -5,18 +5,22 @@
 }
 
 .top-buffer { 
-  margin-top:100px; }
+  margin-top:50px; }
 
 .Greetings
 {
   background:#131312;
-  margin-top:100px;
 }
 .padding-0{
   padding-right:0;
   padding-left:0;
 }
 
+.logo
+{
+  font-family: "Sacramento";
+  font-size: 45px;
+}
 #Bldg
 {
   height:auto;
@@ -31,6 +35,8 @@
 {
   color:#6C63FF;
   font-size: 50px;
+  font-family: 'Montserrat';
+  font-weight: bold;
 }
 
 .casual
@@ -44,6 +50,7 @@
   background-color:#7C7C7C;
   color:black;
   border-color: black;
+  font-weight: bold;
 }
 .btn-outline-light:hover
 {
@@ -52,6 +59,22 @@
    border-color: #6C63FF;
 }
 
+
+.btn-outline-light-N
+{
+  background-color:#7C7C7C;
+  color:black;
+  border-color: black;
+  width:80%;
+  font-weight: bold;
+}
+
+.btn-outline-light-N:hover
+{
+   background-color:#6C63FF;
+   color:black;
+   border-color: #6C63FF;
+}
 
 .heading-2
 {
@@ -64,6 +87,11 @@
   {
     margin-left:0px;
   }
+  .btn-outline-light
+{
+  
+  width:80%;
+}
 }
 .search_field .input
 {
