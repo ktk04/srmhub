@@ -12,6 +12,11 @@
 {
   font-weight: bold !important;
 }
+
+.active-link
+{
+  font-weight: bold !important;
+}
 .top-buffer { 
   margin-top:50px; }
 
@@ -115,6 +120,7 @@
   border-radius: 1.5vh;
   border-color: black;
   margin-top: 1vh;
+  width:auto;
 }
 
 #dist
@@ -123,7 +129,7 @@
     font-size: 24px;
     color: #FFFFFF66;
     border-radius: 1.5vh;
-    width: 50%;
+    width: auto;
     border-color: black;
     padding:0.5vh;
     margin-top:1vh;
@@ -136,7 +142,7 @@
   border-color: black;
   margin-top:1vh;
   font-size: 18px;
-  width:25%;
+  width:auto;
   border-radius:1.5vh;
 }
 
